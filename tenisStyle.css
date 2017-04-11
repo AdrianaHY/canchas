@@ -5,6 +5,7 @@
   background: #6cea57;
   position: relative;
   margin: 0 auto;
+  display:none;
 
 }
 
@@ -14,4 +15,37 @@
   right: 50%;
   position: absolute;
   top: 0%
+
+}
+
+
+
+.rectanguloGrande {
+  width: 649px;
+  height: 210px;
+  position:absolute;
+  margin-left: -1px;
+  margin-top: 70px;
+  border: 2px solid white;
+
+}
+
+.rectanguloPequeño{
+  width: 350px;
+  height: 210px;
+  position:absolute;
+  margin-left: 148px;
+  margin-top: 70px;
+  border: 2px solid white;
+
+}
+
+.lineaHorizontal {
+  width: 350px;
+  height: 0px;
+  position:absolute;
+  margin-left: 148px;
+  margin-top: 180px;
+  border: 1px solid white;
+
 }
