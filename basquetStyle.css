@@ -1,0 +1,79 @@
+#canchaBasquet {
+  width: 650px;
+  height: 350px;
+  border: 2px solid white;
+  background: #e77b18;
+  position: relative;
+  margin: 0 auto;
+}
+
+.circuloMedio {
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left:282px;
+  top: 130px;
+}
+
+.trapecioFondo{
+  width: 85px;
+  height:0px;
+  position: absolute;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 130px solid #eaa857;
+  background-color: none;
+  transform: rotate(90deg);
+  left: -37px;
+  top: 108px;
+}
+
+.trapecioFondoDerecha {
+  width: 85px;
+  height:0px;
+  position: absolute;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 130px solid #eaa857;
+  background-color: none;
+  transform: rotate(90deg);
+  left: 482px;
+  top: 108px;
+  transform: rotate(270deg)
+
+}
+.circuloDerecha {
+  left:100px;
+  background: #e77b18
+}
+
+.circuloIzquierda {
+  left:465px;
+  background: #e77b18
+}
+
+.lineaCentro{
+  height: 100%;
+  border-left: 2px solid white;;
+  right: 50%;
+  position: absolute;
+  top: 0%
+}
+
+.mediaLunaDerecha {
+  width: 182px;
+	height: 298px;
+	position: absolute;
+	border: 2px solid #FFFFFF;
+	-moz-border-radius: 0 200px 200px 0;
+	-webkit-border-radius: 0 200px 200px 0;
+	border-radius: 0 200px 200px 0;
+	margin-top: 25px;
+	margin-left: -1px;
+}
+.mediaLunaIzquierda {
+  transform: rotate(180deg);
+  left: 465px;
+}

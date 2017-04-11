@@ -1,0 +1,17 @@
+#canchaTenis {
+  width: 650px;
+  height: 350px;
+  border: 2px solid white;
+  background: #6cea57;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.lineaDelCentro {
+  height: 100%;
+  border-left: 2px solid white;;
+  right: 50%;
+  position: absolute;
+  top: 0%
+}
